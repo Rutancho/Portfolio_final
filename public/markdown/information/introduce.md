@@ -1,7 +1,8 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+- Demonstrated ability to adapt, collaborate effectively, and complete projects on time.
+- Collaborated in automating test cases and identifying defects using bug tracking tools.
+- Eager to learn and innovate in dynamic environments.
+- Excellent debugging, troubleshooting, and problem-solving abilities.
+- Effective communication skills, essential for working with cross-functional teams.
+- Proficiency in SQL and familiarity with relational database management systems.
+- Practical experience with object-oriented programming (OOP) languages such as Python, C++, or Java.
+- Hands-on experience with version control systems, particularly Git.
