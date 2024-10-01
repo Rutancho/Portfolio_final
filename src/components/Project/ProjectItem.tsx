@@ -11,6 +11,7 @@ const ProjectItem = ({
   description,
   repoUrl,
   webUrl,
+  downUrl,
   period,
   stack,
   markdown,
@@ -36,7 +37,7 @@ const ProjectItem = ({
                 <span>{`${period[0]} - ${period[1]}`}</span>
               </div>
             </div>
-            <Links repoUrl={repoUrl} webUrl={webUrl} />
+            <Links repoUrl={repoUrl} webUrl={webUrl} downUrl={downUrl}/>
           </div>
         </div>
       </div>

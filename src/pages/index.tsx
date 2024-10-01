@@ -1,8 +1,6 @@
 import fsPromises, * as fs from "fs/promises";
 import path from "path";
-
 import { NextPage } from "next";
-
 
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
@@ -11,7 +9,7 @@ import Layout from "@/components/Layout";
 import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 import ScrollProgress from "@/components/ScrollProgress";
-import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
+import { DataProps, InformationProps, ProjectProps } from "@/types";
 
 
 const Home: NextPage<DataProps> = ({
@@ -83,7 +81,7 @@ const getImgSrc = async ({
   item,
 }: {
   section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
+  item: InformationProps | ProjectProps;
 }) => {
   const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
   const filePath = path.join(process.cwd(), "public", imgSrc);

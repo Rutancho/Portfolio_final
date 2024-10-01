@@ -19,6 +19,7 @@ export interface ProjectProps {
   id: number;
   name: string;
   description: string;
+  downUrl?: string;
   repoUrl: string;
   webUrl?: string;
   isTeam?: boolean;
