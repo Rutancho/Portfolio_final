@@ -61,7 +61,7 @@
     {
       "id": 1,
       "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
+      "period": ["2022. 06", "2022. 08"], 
       "description": "두번째 활동에 대한 간략한 설명"
     }
   ],
@@ -70,7 +70,7 @@
     {
       "id": 0,
       "name": "Seneca College",
-      "period": ["2023. 05", "Present"],
+      "period": ["2023. 05", "2024. 12"],
       "description": "Engaged in practical and theoretical learning in system programming, and data handling."
     }
   ],
@@ -89,6 +89,30 @@
       "organizer": "ETS"
     }
   ],
+
+  "workExperience": [
+    {
+      "id": 0,
+      "company": "H-mart",
+      "position": "Clerk",
+      "duration": "Apr 2021 - Present",
+      "description": ["Handled more than 50 customer inquiries every shift to maintain a smooth shopping experience.",
+                      "Restocking delays decreased through optimized inventory tracking of high-demand products.",
+                      "Through assistance with stock organization and management the operational efficiency was enhanced and product placement errors were minimized.",
+                      "The store environment remained organized and clean to comply with both safety requirements and operational protocols."    
+                    ]},
+    {
+      "id": 1,
+      "company": "Scaddabush",
+      "position": "Line Cook",
+      "duration": "Jun 2022 - Dec 2022",
+      "description": ["Supported internal kitchen tool maintenance to promote smooth food preparation and efficient workflow.",
+                      "Implemented a uniform ingredient preparation system that decreased preparation time while boosting kitchen productivity.",
+                      "Facilitated live coordination across kitchen stations which led to better order accuracy and faster delivery times.",
+                      "Maintained high food safety standards, ensuring compliance with health regulations",
+                      "Trained new team members on station-specific tasks, improving team efficiency and reducing onboarding time."]}
+  ],
+
 
   "award": [
     {

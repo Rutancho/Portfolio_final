@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 
 /**
- * @description SEO를 위해 본인의 정보로 수정해주세요.
+ * @description 
  */
 const DEFAULT_SEO = {
   title: "Jaehyuk | Front-End Dev",

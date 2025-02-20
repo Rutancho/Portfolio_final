@@ -7,7 +7,7 @@ export interface InformationProps {
 
 export interface WorkExperienceProps {
   id: number;
-  name: string;
+  company: string;
   description?: string;
   position: string;
   period: string[];

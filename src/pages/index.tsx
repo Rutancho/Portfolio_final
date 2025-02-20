@@ -9,6 +9,7 @@ import Layout from "@/components/Layout";
 import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 import ScrollProgress from "@/components/ScrollProgress";
+import WorkExperience from "@/components/workExperience";
 import { DataProps, InformationProps, ProjectProps } from "@/types";
 
 
@@ -17,6 +18,7 @@ const Home: NextPage<DataProps> = ({
   information,
   project,
   education,
+  workExperience,
 
 }) => {
   return (
@@ -27,6 +29,7 @@ const Home: NextPage<DataProps> = ({
         <Information information={information} />
         <Project project={project} />
         <Education education={education} />
+        <WorkExperience workExperience={workExperience} />
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>
