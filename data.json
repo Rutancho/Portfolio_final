@@ -16,14 +16,14 @@
   "project": [
     {
       "id": 0,
-      "name": "2D Board Game",
-      "description": "A 2D board game where players take turns adding gems. If the number of gems in a square matches its neighbors, gems overflow and change to the player's color. The game ends when all gems are the same color, determining the winner.",
+      "name": "Inventory Management",
+      "description": "Designed an Excel based inventory management system using VBA, automating stock tracking and report generation for efficient retail operations.",
       "downUrl": "https://github.com/Rutancho/Board-game/releases/download/Game/game.exe",
       "webUrl": "https://github.com/Rutancho/Board-game/releases/tag/Game",
       "repoUrl": "https://github.com/Rutancho/Board-game.git",
       "isTeam": true,
-      "period": ["2024. 08", "2024. 09"],
-      "stack": ["Python"]
+      "period": [],
+      "stack": ["Excel"]
     },
 
     {
@@ -33,7 +33,7 @@
       "downUrl": "",
       "webUrl": "https://github.com/Rutancho/Order-Management-System",
       "repoUrl": "https://github.com/Rutancho/Order-Management-System",
-      "isTeam": false,
+      "isTeam": true,
       "period": ["2023. 11", "2022. 12"],
       "stack": ["C++"]
     },
@@ -45,7 +45,7 @@
       "downUrl": "",
       "webUrl": "https://github.com/Rutancho/Order-Management-System",
       "repoUrl": "https://github.com/Rutancho/Order-Management-System",
-      "isTeam": false,
+      "isTeam": true,
       "period": ["2024. 9", "Present"],
       "stack": ["HTML", "Javascript", "Next.js", "CSS"]
     }

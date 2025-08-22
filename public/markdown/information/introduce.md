@@ -1,8 +1,6 @@
 - Demonstrated ability to adapt, collaborate effectively, and complete projects on time.
-- Collaborated in automating test cases and identifying defects using bug tracking tools.
-- Eager to learn and innovate in dynamic environments.
-- Excellent debugging, troubleshooting, and problem-solving abilities.
-- Effective communication skills, essential for working with cross-functional teams.
-- Proficiency in SQL and familiarity with relational database management systems.
-- Practical experience with object-oriented programming (OOP) languages such as Python, C++, or Java.
-- Hands-on experience with version control systems, particularly Git.
+- Leveraged sales data to improve profitability and support strategic pricing decisions in customer-facing operations.
+- Provided professional customer service and managed high volumes of invoices and internal documentation.
+- Skilled in identifying and resolving customer issues promptly, with a focus on clear communication and service excellence.
+- Effective communication skills, essential for working with cross functional teams.
+- Applied Excel and VBA to streamline inventory tracking, optimize workflows, and support daily retail operations with improved accuracy and efficiency.

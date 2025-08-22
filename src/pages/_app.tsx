@@ -8,7 +8,7 @@ import type { AppProps } from "next/app";
  */
 const DEFAULT_SEO = {
   title: "Jaehyuk | Front-End Dev",
-  description: "Hello, I am Jaehyuk Heo",
+  description: "Hi, I’m Jaehyuk Heo / passionate about using tech and data to support business operations.",
   canonical: "https://www.google.ca/",
   openGraph: {
     type: "website",
