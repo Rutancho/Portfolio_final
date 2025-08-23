@@ -28,14 +28,14 @@
 
     {
       "id": 1,
-      "name": "Order Management System",
-      "description": "Improved the flow from customer orders to fulfillment by organizing tasks, balancing workloads, tracking orders, and managing inventory. Used C++ debugging tools and tests to fix issues with task coordination, order tracking, and inventory management.",
+      "name": "Manage Profit Margin",
+      "description": "Managed profit margin calculations using Excel to support pricing strategies and highlight revenue opportunities. Tracked and analyzed cost and sales data to enhance operational transparency and business decision making.",
       "downUrl": "",
       "webUrl": "https://github.com/Rutancho/Order-Management-System",
       "repoUrl": "https://github.com/Rutancho/Order-Management-System",
       "isTeam": true,
-      "period": ["2023. 11", "2022. 12"],
-      "stack": ["C++"]
+      "period": [],
+      "stack": ["Excel"]
     },
 
     {
@@ -45,7 +45,7 @@
       "downUrl": "",
       "webUrl": "https://github.com/Rutancho/Order-Management-System",
       "repoUrl": "https://github.com/Rutancho/Order-Management-System",
-      "isTeam": true,
+      "isTeam": false,
       "period": ["2024. 9", "Present"],
       "stack": ["HTML", "Javascript", "Next.js", "CSS"]
     }
@@ -95,22 +95,14 @@
       "id": 0,
       "company": "H-mart",
       "position": "Clerk",
-      "duration": "Apr 2021 - Present",
-      "description": ["Handled more than 50 customer inquiries every shift to maintain a smooth shopping experience.",
-                      "Restocking delays decreased through optimized inventory tracking of high-demand products.",
-                      "Through assistance with stock organization and management the operational efficiency was enhanced and product placement errors were minimized.",
-                      "The store environment remained organized and clean to comply with both safety requirements and operational protocols."    
-                    ]},
+      "period": "Apr 2021 - Present",
+      "description": [""]},
     {
       "id": 1,
-      "company": "Scaddabush",
+      "company": "Oliver @ Bonacini Café Grill",
       "position": "Line Cook",
-      "duration": "Jun 2022 - Dec 2022",
-      "description": ["Supported internal kitchen tool maintenance to promote smooth food preparation and efficient workflow.",
-                      "Implemented a uniform ingredient preparation system that decreased preparation time while boosting kitchen productivity.",
-                      "Facilitated live coordination across kitchen stations which led to better order accuracy and faster delivery times.",
-                      "Maintained high food safety standards, ensuring compliance with health regulations",
-                      "Trained new team members on station-specific tasks, improving team efficiency and reducing onboarding time."]}
+      "period": "May 2018 – June 2019",
+      "description": []}
   ],
 
 

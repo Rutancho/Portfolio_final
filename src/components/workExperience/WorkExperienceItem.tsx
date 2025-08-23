@@ -1,22 +1,35 @@
-interface WorkExperienceItemProps {
-    company: string;
-    position: string;
-    description?: string;
-    duration?: string[];  
-  }
-  
-  const WorkExperienceItem = ({ company, position, description, duration }: WorkExperienceItemProps) => {
-    return (
-      <div className="work-experience-item">
-        <h3 className="text-xl font-bold">{position} at {company}</h3>
-        <p className="text-sm text-gray-600"></p>
-        <p className="text-sm text-gray-600">{duration || "Period not available"}</p> 
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
-        <p className="whitespace-pre-wrap mt-2">
-        {Array.isArray(description) ? description.join("\n") : description || "No description available"}</p>
+import { WorkExperienceProps } from "@/types";
+
+
+
+const WorkExperienceItem = ({
+  company,
+  position,
+  description,
+  period,
+  markdown,
+}: WorkExperienceProps) => {
+  const markdownDescription = Array.isArray(description)
+    ? description.join("\n")
+    : description || "No description available";
+
+  return (
+    <div className="work-experience-item">
+      <h3 className="text-xl font-bold">
+        {position} at {company}
+      </h3>
+      <p className="text-sm text-gray-600">{period || "Period not available"}</p>
+
+      <div className="whitespace-pre-wrap mt-2">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          {markdown ?? markdownDescription}
+        </ReactMarkdown>
       </div>
-    );
-  };
-  
-  export default WorkExperienceItem;
-  
+    </div>
+  );
+};
+
+export default WorkExperienceItem;

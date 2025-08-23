@@ -43,13 +43,20 @@ export const getStaticProps = async () => {
   const jsonData = await fsPromises.readFile(filePath, "utf8");
   const objectData = JSON.parse(jsonData);
 
+  
   const informationWithData = getImgSrc({
     section: "information",
     item: await getMd({ section: "information", item: { ...objectData.information } }),
   });
 
+  
   const projectWithData = objectData.project.map(async (item: ProjectProps) => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
+  });
+
+  
+  const workExperienceWithData = objectData.workExperience.map(async (item: ProjectProps) => {
+    return getImgSrc({ section: "workExperience", item: await getMd({ section: "workExperience", item }) });
   });
 
   return {
@@ -57,6 +64,7 @@ export const getStaticProps = async () => {
       ...objectData,
       information: await informationWithData,
       project: await Promise.all(projectWithData),
+      workExperience: await Promise.all(workExperienceWithData),
     },
   };
 };

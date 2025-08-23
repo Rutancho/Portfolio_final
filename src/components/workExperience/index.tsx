@@ -8,7 +8,7 @@ const WorkExperience = ({ workExperience }: Pick<DataProps, "workExperience">) =
     <div>
       <SectionTitle>Work Experience</SectionTitle>
       <div className="flex flex-col gap-24">
-        {[...workExperience].reverse().map((experience) => (
+        {[...workExperience].map((experience) => (
           <WorkExperienceItem key={experience.id} {...experience} />
         ))}
       </div>

@@ -8,7 +8,7 @@ export interface InformationProps {
 export interface WorkExperienceProps {
   id: number;
   company: string;
-  description?: string;
+  description?: string | string[];
   position: string;
   period: string[];
   markdown?: string;
@@ -47,7 +47,7 @@ export interface DataProps {
   activity: {
     id: number;
     name: string;
-    description: string;
+    description: string | string[];
     period: string[];
   }[];
   education: {
