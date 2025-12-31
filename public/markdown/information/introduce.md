@@ -1,6 +1,6 @@
 - Demonstrated ability to adapt, collaborate effectively, and complete projects on time.
-- Leveraged sales data to improve profitability and support strategic pricing decisions in customer-facing operations.
+- Leveraged sales data to improve profitability and support strategic pricing decisions in customer facing operations.
 - Provided professional customer service and managed high volumes of invoices and internal documentation.
 - Skilled in identifying and resolving customer issues promptly, with a focus on clear communication and service excellence.
 - Effective communication skills, essential for working with cross functional teams.
-- Applied Excel and VBA to streamline inventory tracking, optimize workflows, and support daily retail operations with improved accuracy and efficiency.
+

@@ -17,36 +17,24 @@
     {
       "id": 0,
       "name": "Inventory Management",
-      "description": "Designed an Excel based inventory management system using VBA, automating stock tracking and report generation for efficient retail operations.",
-      "downUrl": "https://github.com/Rutancho/Board-game/releases/download/Game/game.exe",
-      "webUrl": "https://github.com/Rutancho/Board-game/releases/tag/Game",
-      "repoUrl": "https://github.com/Rutancho/Board-game.git",
-      "isTeam": true,
-      "period": [],
-      "stack": ["Excel"]
-    },
-
-    {
-      "id": 1,
-      "name": "Manage Profit Margin",
-      "description": "Managed profit margin calculations using Excel to support pricing strategies and highlight revenue opportunities. Tracked and analyzed cost and sales data to enhance operational transparency and business decision making.",
+      "description": "Built a web based system using HTML, CSS, JavaScript, and Node.js to manage LEGO collection data with secure access and dynamic content display.",
       "downUrl": "",
-      "webUrl": "https://github.com/Rutancho/Order-Management-System",
-      "repoUrl": "https://github.com/Rutancho/Order-Management-System",
+      "webUrl": "https://github.com/Rutancho/Collection",
+      "repoUrl": "",
       "isTeam": true,
       "period": [],
-      "stack": ["Excel"]
+      "stack": ["HTML, CSS, JavaScript, and Node.js"]
     },
 
     {
-    "id": 2,
+    "id": 1,
       "name": "Secure-Blog-Platform",
       "description": "Developed a secure blog platform that integrates GitHub OAuth for user authentication. Users can log in via GitHub, create, edit, and manage their blog posts. The system automatically refreshes blog content at regular intervals to display the latest updates. It also efficiently handles errors and ensures secure data storage and persistence.",
       "downUrl": "",
-      "webUrl": "https://github.com/Rutancho/Order-Management-System",
-      "repoUrl": "https://github.com/Rutancho/Order-Management-System",
-      "isTeam": false,
-      "period": ["2024. 9", "Present"],
+      "webUrl": "https://github.com/Rutancho/Secure-Blog-Platform",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": [""],
       "stack": ["HTML", "Javascript", "Next.js", "CSS"]
     }
   ],
@@ -71,7 +59,7 @@
       "id": 0,
       "name": "Seneca College",
       "period": ["2023. 05", "2024. 12"],
-      "description": "Engaged in practical and theoretical learning in system programming, and data handling."
+      "description": "Data Handling, Systems Analysis, Structured Programming, achieving a GPA of 3.9."
     }
   ],
 
@@ -96,13 +84,7 @@
       "company": "H-mart",
       "position": "Clerk",
       "period": "Apr 2021 - Present",
-      "description": [""]},
-    {
-      "id": 1,
-      "company": "Oliver @ Bonacini Café Grill",
-      "position": "Line Cook",
-      "period": "May 2018 – June 2019",
-      "description": []}
+      "description": [""]}
   ],
 
 

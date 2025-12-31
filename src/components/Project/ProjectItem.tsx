@@ -11,7 +11,7 @@ const ProjectItem = ({
   description,
   repoUrl,
   webUrl,
-  downUrl,
+  downUrl, 
   period,
   stack,
   markdown,
