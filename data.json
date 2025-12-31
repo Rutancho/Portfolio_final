@@ -16,7 +16,7 @@
   "project": [
     {
       "id": 0,
-      "name": "Inventory Management",
+      "name": "Collection",
       "description": "Built a web based system using HTML, CSS, JavaScript, and Node.js to manage LEGO collection data with secure access and dynamic content display.",
       "downUrl": "",
       "webUrl": "https://github.com/Rutancho/Collection",
